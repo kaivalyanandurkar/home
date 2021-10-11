@@ -16,11 +16,11 @@
     left: 0;
     animation: 5s slider infinite;
 }
-body{
+.body{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-nav{
+.navbar{
     background-color: #0000;
     height: 78px;
     width: 100%;
@@ -33,30 +33,30 @@ label.logo{
     padding: 0 20px;
     font-weight: bold;
 }
-nav ul{
+.navbar ul{
     float: right;
     margin-right: 20px;
 }
-nav ul li{
+.navbar ul li{
     display: inline-block;
     margin: 0 5px;
     line-height: 70px;
 }
-nav ul li a{
+.navbar ul li a{
     color: black;
     font-size: 17px;
     padding: 5px 9px;
     border-radius: 3px;
     position: relative;
 }
-a:hover{
+.active:hover{
     background: #1b9bff;
     transition: .5s;
     
 }
-a.active{
+/* a.active{
     background: rgb(0, 128, 255);
-}
+} */
 
 .carousel-control-next:hover, .carousel-control-prev:hover {
     background: rgba(0, 0, 0, 0);
