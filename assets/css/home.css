@@ -146,3 +146,114 @@ label.logo {
 .carousel-control-prev:hover {
   background: rgba(0, 0, 0, 0);
 }
+
+
+  /* h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  } */
+  .row{
+    text-align: center;
+    font-size: small;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  /* background-color: #5296fb; */
+  /* background: rgba(82, 150, 251, 0.16); */
+  background-color: #fff;
+  color: #fff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.white-section {
+  /* background-color: #5296fb; */
+  background: #fff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials {
+  /* background-color: #5296fb; */
+  margin-top: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: "Montserrat";
+  text-align: center;
+  background: rgba(82, 150, 251, 0.16);
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #fff;
+  padding-bottom: 3%;
+  padding-top: 50px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  /* background-color: #5296fb; */
+  /* opacity: 16%; */
+  /* background: rgba(82, 150, 251, 0.16); */
+  background-color: #fff;
+}
+.course_img{
+    width: 50%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  border-radius: 25px;
+}
+.card{
+box-shadow:
+0 6.7px 5.3px rgba(0, 0, 0, 0.058);
+border-radius: 25px;
+}
+
