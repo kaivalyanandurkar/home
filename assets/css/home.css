@@ -11,6 +11,8 @@
 
 .whyUsSection {
   margin: 15px 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .whyUsDiv {
   text-align: center;
@@ -142,24 +144,26 @@ label.logo {
   background: rgb(0, 128, 255);
 } */
 
+.testimonialsActive:hover{
+  background: inherit;
+}
+
+
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
   background: rgba(0, 0, 0, 0);
 }
 
-
-  /* h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat-Bold";
-  } */
   .row{
     text-align: center;
     font-size: small;
+
 }
 
 /* Headings */
 
 .big-heading {
-  font-family: "Montserrat-Black";
+  /* font-family: "Montserrat-Black"; */
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -178,18 +182,16 @@ label.logo {
 /* Sections */
 
 .colored-section {
-  /* background-color: #5296fb; */
-  /* background: rgba(82, 150, 251, 0.16); */
   background-color: #fff;
   color: #fff;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   text-align: center;
 }
 
 .white-section {
   /* background-color: #5296fb; */
   background: #fff;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   text-align: center;
 }
 
@@ -198,11 +200,10 @@ label.logo {
 /* Testimonial Section */
 
 #testimonials {
-  /* background-color: #5296fb; */
   margin-top: 20px;
   padding-top: 80px;
   padding-bottom: 80px;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   text-align: center;
   background: rgba(82, 150, 251, 0.16);
 }
@@ -219,7 +220,7 @@ label.logo {
 }
 
 
-#press {
+/* #press {
   background-color: #fff;
   padding-bottom: 3%;
   padding-top: 50px;
@@ -228,15 +229,12 @@ label.logo {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
-}
+} */
 
 /* Pricing Section */
 
 #pricing {
   padding: 100px;
-  /* background-color: #5296fb; */
-  /* opacity: 16%; */
-  /* background: rgba(82, 150, 251, 0.16); */
   background-color: #fff;
 }
 .course_img{
@@ -252,8 +250,7 @@ label.logo {
   border-radius: 25px;
 }
 .card{
-box-shadow:
-0 6.7px 5.3px rgba(0, 0, 0, 0.058);
-border-radius: 25px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px !important;
 }
 
